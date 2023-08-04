@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-04T10:47:22 IST" name="Default suite" finished-at="2023-08-04T10:48:02 IST" duration-ms="39878">
+    <groups>
+    </groups>
+    <test started-at="2023-08-04T10:47:22 IST" name="Default test" finished-at="2023-08-04T10:48:02 IST" duration-ms="39878">
+      <class name="api.Testcases.TestuserDD">
+        <test-method signature="postusers([Ljava.lang.String;)[pri:1, instance:api.Testcases.TestuserDD@51e69659]" started-at="2023-08-04T10:47:31 IST" name="postusers" data-provider="data" finished-at="2023-08-04T10:47:46 IST" duration-ms="14661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4e4f4092]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postusers -->
+        <test-method signature="postusers([Ljava.lang.String;)[pri:1, instance:api.Testcases.TestuserDD@51e69659]" started-at="2023-08-04T10:47:46 IST" name="postusers" data-provider="data" finished-at="2023-08-04T10:47:47 IST" duration-ms="1225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1fc0d9b4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postusers -->
+        <test-method signature="postusers([Ljava.lang.String;)[pri:1, instance:api.Testcases.TestuserDD@51e69659]" started-at="2023-08-04T10:47:47 IST" name="postusers" data-provider="data" finished-at="2023-08-04T10:47:49 IST" duration-ms="1240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@42107318]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postusers -->
+        <test-method signature="Getusers(java.lang.String)[pri:2, instance:api.Testcases.TestuserDD@51e69659]" started-at="2023-08-04T10:47:49 IST" name="Getusers" data-provider="username" finished-at="2023-08-04T10:47:50 IST" duration-ms="1565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trio]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Getusers -->
+        <test-method signature="Getusers(java.lang.String)[pri:2, instance:api.Testcases.TestuserDD@51e69659]" started-at="2023-08-04T10:47:50 IST" name="Getusers" data-provider="username" finished-at="2023-08-04T10:47:53 IST" duration-ms="2839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hcl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Getusers -->
+        <test-method signature="Getusers(java.lang.String)[pri:2, instance:api.Testcases.TestuserDD@51e69659]" started-at="2023-08-04T10:47:53 IST" name="Getusers" data-provider="username" finished-at="2023-08-04T10:47:54 IST" duration-ms="1177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Getusers -->
+        <test-method signature="Putusers(java.lang.String)[pri:3, instance:api.Testcases.TestuserDD@51e69659]" started-at="2023-08-04T10:47:55 IST" name="Putusers" data-provider="username" finished-at="2023-08-04T10:47:56 IST" duration-ms="1237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trio]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Putusers -->
+        <test-method signature="Putusers(java.lang.String)[pri:3, instance:api.Testcases.TestuserDD@51e69659]" started-at="2023-08-04T10:47:56 IST" name="Putusers" data-provider="username" finished-at="2023-08-04T10:47:57 IST" duration-ms="1198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hcl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Putusers -->
+        <test-method signature="Putusers(java.lang.String)[pri:3, instance:api.Testcases.TestuserDD@51e69659]" started-at="2023-08-04T10:47:57 IST" name="Putusers" data-provider="username" finished-at="2023-08-04T10:47:58 IST" duration-ms="1204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Putusers -->
+        <test-method signature="Deleteusers(java.lang.String)[pri:4, instance:api.Testcases.TestuserDD@51e69659]" started-at="2023-08-04T10:47:58 IST" name="Deleteusers" data-provider="username" finished-at="2023-08-04T10:48:00 IST" duration-ms="1186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Trio]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deleteusers -->
+        <test-method signature="Deleteusers(java.lang.String)[pri:4, instance:api.Testcases.TestuserDD@51e69659]" started-at="2023-08-04T10:48:00 IST" name="Deleteusers" data-provider="username" finished-at="2023-08-04T10:48:01 IST" duration-ms="1171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hcl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deleteusers -->
+        <test-method signature="Deleteusers(java.lang.String)[pri:4, instance:api.Testcases.TestuserDD@51e69659]" started-at="2023-08-04T10:48:01 IST" name="Deleteusers" data-provider="username" finished-at="2023-08-04T10:48:02 IST" duration-ms="1142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deleteusers -->
+      </class> <!-- api.Testcases.TestuserDD -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
